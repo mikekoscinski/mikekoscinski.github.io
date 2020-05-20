@@ -1,0 +1,43 @@
+/* Formatting for the entire document. */
+
+html{
+	max-width: 70ch;
+	overflow: hidden;
+	margin: 2%;
+	font-family: calibri, sans-serif;
+}
+
+/* Formatting for header navigation bar. */
+
+header{
+	font-family: calibre;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+header p{
+	display: inline-block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+header nav	ul{
+	list-style-type: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+header nav li{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+/* Keeps left aligned name and right aligned nav bar middle-justified. */
+
+header::after{
+	content:"";
+	display: table;
+	clear: both
+}
