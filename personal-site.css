@@ -4,16 +4,23 @@ html{
 	max-width: 70ch;
 	overflow: hidden;
 	margin: 2%;
-	font-family: calibri, sans-serif;
+	font-family: calibre, sans-serif;
 }
 
-/* Formatting for header navigation bar. */
+/* Master formatting for header navigation bar. */
 
 header{
 	font-family: calibre;
 	font-weight: bold;
+}
+
+/* Links in the header will not be underlined */
+
+header a{
 	text-decoration: none;
 }
+
+/* Formatting for my name in the header */
 
 header p{
 	display: inline-block;
@@ -21,6 +28,8 @@ header p{
 	margin: 0;
 	padding: 0;
 }
+
+/* Formatting for my nav list in the header */
 
 header nav	ul{
 	list-style-type: none;
@@ -34,7 +43,7 @@ header nav li{
 	margin-left: 15px;
 }
 
-/* Keeps left aligned name and right aligned nav bar middle-justified. */
+/* Within the header, this middle justifies the left-aligned name and the right-aligned nav bar . */
 
 header::after{
 	content:"";
