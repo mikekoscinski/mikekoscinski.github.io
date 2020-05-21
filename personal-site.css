@@ -2,15 +2,19 @@
 
 html{
 	max-width: 70ch;
-	margin: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
 	font-family: 'Neuton', serif;
 }
 
 /* Master formatting for header navigation bar. */
 
 header{
+	margin-top: 15px;
 	font-family: calibre;
 	font-weight: bold;
+
 }
 
 /* Links in the header will not be underlined */
@@ -50,6 +54,8 @@ header::after{
 	clear: both
 }
 
+/* Master formatting for content within the body of blogpost entries. */
+
 .blogpost h1{
 	font-size: 150%;
 	font-weight: bolder;
@@ -57,4 +63,11 @@ header::after{
 
 .blogpost p{
 	font-size: 100%;
+}
+
+.blogpost img{
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
