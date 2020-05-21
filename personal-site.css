@@ -1,3 +1,7 @@
+/* File System: This CSS sheet is in the same directory as the parent pages. */
+/* However, it is in the directory *** above *** the blog post files. */
+/* So, reference this sheet as ../personal-site.css in the pages containing actual blog content. */
+
 /* Formatting for the entire document. */
 
 html{
