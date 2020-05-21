@@ -49,3 +49,12 @@ header::after{
 	display: table;
 	clear: both
 }
+
+.blogpost h1{
+	font-size: 150%;
+	font-weight: bolder;
+}
+
+.blogpost p{
+	font-size: 100%;
+}
