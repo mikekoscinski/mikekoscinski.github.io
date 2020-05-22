@@ -1,4 +1,4 @@
-# personal-site
+# mikekoscinski.github.io
 
 ## File Architecture:
 
