@@ -9,15 +9,16 @@ html{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 15px;
-	font-family: 'Neuton', serif;
+	font-family: arial, serif;
 }
 
 /* Master formatting for header navigation bar. */
 
 header{
 	margin-top: 15px;
-	font-family: calibre;
+	font-family: helvetica neue;
 	font-weight: bold;
+	margin-bottom: 30px;
 
 }
 
