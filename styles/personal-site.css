@@ -12,6 +12,24 @@ html{
 	font-family: arial, serif;
 }
 
+/* Master formatting for hyperlinks. */
+
+a:link{
+	color:black;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	color: grey;
+}
+
+a:active{
+	color: grey;
+}
+
 /* Master formatting for header navigation bar. */
 
 header{
