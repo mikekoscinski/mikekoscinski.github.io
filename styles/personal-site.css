@@ -70,7 +70,7 @@ header nav li{
 	margin-left: 15px;
 }
 
-/* Within the header, this middle justifies the left-aligned name and the right-aligned nav bar . */
+/* Within the header, this middle justifies the left-aligned name and the right-aligned nav bar. */
 
 header::after{
 	content:"";
