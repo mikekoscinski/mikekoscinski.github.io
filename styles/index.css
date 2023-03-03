@@ -285,7 +285,7 @@ body {
 	max-width: 500px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 15px;
+	padding: 20px;
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -307,4 +307,25 @@ a.essay {
 
 .blog-search {
   margin: 20px 0px;
+}
+
+.nav-sections {
+  align-items: center;
+  display: flex;
+  font-size: 13px;
+  gap: 20px;
+  height: 40px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topbar-name {
+  font-weight: 700;
+}
+
+.subscribe {
+  display: flex;
 }
