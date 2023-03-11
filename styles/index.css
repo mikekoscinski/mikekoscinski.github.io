@@ -269,10 +269,10 @@
 }
 
 :root {
-	font-family: 'Inter';
+	font-family: 'Spectral';
 	font-weight: 300;
 	background-color: #fff1e5;
-  
+  letter-spacing: -.02em;
 	/* background-color: #fff; */
 }
 
