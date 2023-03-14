@@ -21,7 +21,7 @@ h2 {
 }
 
 p {
-  margin: 0px 0px 16px;
+  margin: 0px 0px 20px;
 }
 
 p:last-of-type {
@@ -31,6 +31,7 @@ p:last-of-type {
 .content {
   padding: 20px 16px 0px;
   max-width: 435px;
+  margin-bottom: 60px;
 }
 
 body {
@@ -101,10 +102,11 @@ a.essay {
   margin-bottom: 3px;
 }
 
-.content a {
-  /* text-decoration: none; */
-  /* font-family: 'Frank Ruhl Libre', serif; */
+a {
   color: black;
+}
+
+.content a {
   font-weight: 700;
 }
 
@@ -131,6 +133,7 @@ footer {
   left: 0px;
   position: fixed;
   width: 100%;
+  background-color: #fff1e5;
 }
 
 .footer-content {
@@ -168,4 +171,8 @@ footer {
 
 .archive-entry-preview {
   color: #33302e;
+}
+
+.blogpost img {
+  max-width: 100%;
 }
