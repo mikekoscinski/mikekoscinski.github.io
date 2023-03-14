@@ -10,84 +10,57 @@
 	<link rel="stylesheet" type="text/css" href="./styles/index.css">
 	<link rel="icon" href="images/favicon.ico">
 </head>
-<link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet" type="text/css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700;800;900&display=swap" rel="stylesheet">
+
 <body>
 	<div class="navbar">
 		<div class="topbar">
-			<!-- TODO: This should disappear when you scroll down 
-				and re-appear when you scroll up
-				like it does here: https://pmarca.substack.com/about
-				-->
-			<span class="topbar-name">Mike Koscinski</span>
-			<!-- Probably delete this and move it to the `Blog` page only -->
-			<!-- <div class="subscribe">
-				<input placeholder="Type your email..."></input>
-				<button>subscribe</button>
-			</div> -->
+			<h1>Mike Koscinski</h1>
 		</div>
 		<div class="nav-sections">
-			<div class="menu-item">
-				<a role="button">About</a>
+			<div class="menu-item focused">
+				<a role="button" href="/">About</a>
 			</div>
 			<div class="menu-item">
-				<a role="button">Blog</a>
+				<a role="button" href="blog.html">Blog</a>
 			</div>
 			<div class="menu-item">
-				<a role="button">Contact</a>
-			</div>
-			<div class="menu-item">
-				<a role="button">Work</a>
-			</div>
+				<a role="button" href="contact.html">Contact</a>
 			</div>
 		</div>
+		<div class="underline"></div>
 	</div>
-	<div class="about">
-		<h2>About</h2>
-		<p>
-			Software Engineer at Flume Health.
-		</p>
-		<p>
-			At Flume Health, I wrote code for our design system and JSON forms library.
-		</p>
-		<p>
-			At Mulberry, I wrote code for our Shopify SDK, which enabled stores to sell extended warranties.
-		</p>
-		<p>
-			At ERA, I helped invest in early-stage startups.
-		</p>
-	</div>
-	<h2>Work</h2>
-	<div></div>
-	<h2>Blog</h2>
-	<div class="writing">
-		<div class="blog-subscribe">
-			<p>Want to hear when I write something new?</p>
-			<input placeholder="Type your email..."></input>
-			<button>subscribe</button>
-		</div>
-		<div class="blog-search">
-			<p>Search by topic</p>
-			<input placeholder="Search..."></input>
-			<button>search</button>
-		</div>
-		<div class="writing__2022">
-			<!-- TODO: Get rid of this format. It doesn't actually 
-				convey useful information. This real estate is better 
-				saved for the titles themselves -->
-			<!-- TODO: Some sort of hover effect like these nav items on the menu: https://www.titan.com/strategies#Managed%20Stocks -->
-			<!-- TODO: Something like this: https://paco.me/writing -->
-			<div>2022</div>
-			<div class="essay-container">
-				<div>
-					<a class="essay" href=blog/field-notes-miami.html>Field Notes: Brazil</a> <button>Travel</button></span>
-				</div>
-				<a class="essay" href=blog/field-notes-miami.html>Field Notes: Qatar</a>
-				<a class="essay" href=blog/field-notes-miami.html>Field Notes: Columbus</a>
-				<a class="essay" href=blog/field-notes-miami.html>Field Notes: Miami</a>
-			</div>
+	<div class="content">
+		<div class="about">
+			<h2 class="section-heading">About</h2>
+			<p>
+				Software Engineer at Flume Health.
+			</p>
+			<p>
+				At Flume Health, I wrote code for our design system and JSON forms library.
+			</p>
+			<p>
+				At Mulberry, I wrote code for our Shopify SDK, which enabled retailers to sell extended warranties.
+			</p>
+			<p>
+				At ERA, I helped invest in early-stage startups.
+			</p>
+			<p>
+				Previously, Software Engineer at Mulberry and Investment Analyst at ERA.
+			</p>
 		</div>
 	</div>
-
-	</div>
+	<footer>
+		<div class="underline"></div>
+		<div class="footer-content">
+			<span>
+				&#169; Mike Koscinski 2018-2023
+			</span>
+		</div>
+	</footer>
 </body>
 
