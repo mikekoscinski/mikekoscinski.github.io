@@ -1,32 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<title>Mike Koscinski</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Personal blog and website of Mike Koscinski.">
+		<meta name="author" content="Mike Koscinski">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./styles/index.css">
+		<link rel="icon" href="images/favicon.ico">
+	</head>
 
-<head>
-	<title>Mike Koscinski</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Personal blog and website of Mike Koscinski.">
-	<meta name="author" content="Mike Koscinski">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="./styles/index.css">
-	<link rel="icon" href="images/favicon.ico">
-</head>
-<header>
-	<p><a href="/">Mike Koscinski</a></p>
-	<nav>
-		<ul>
-			<li><a href=blog.html>Blog</a></li>
-			<li><a href=contact.html>Contact</a></li>
-		</ul>
-	</nav>
-</header>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700;800;900&display=swap" rel="stylesheet">
 
-<body>
-	<p><a href=blog/field-notes-miami.html>Field Notes: Miami</a> (2022)</p>
-	<p><a href=blog/aspire-after-nostalgia.html>Aspire After Nostalgia</a> (2019)</p>
-	<p><a href=blog/amazon-ads-search.html>Will Amazon Ads Compromise Search?</a> (2019)</p>
-	<p><a href=blog/duckduckgo-fall-short.html>Where Does DuckDuckGo Fall Short?</a> (2019)</p>
-	<p><a href=blog/finance-in-charge.html>Is Finance No Longer in Charge?</a> (2019)</p>
-	<p><a href=blog/binary-moats.html>Binary Moats</a> (2018)</p>
-</body>
+	<!-- TODO: Monospace font -->
+	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
+	<body>
+		<div class="navbar">
+			<div class="topbar">
+				<a href="/">
+					<h1>Mike Koscinski</h1>
+				</a>
+			</div>
+			<div class="nav-sections">
+				<div class="menu-item">
+					<a role="button" href="/">About</a>
+				</div>
+				<div class="menu-item focused">
+					<a role="button" href="blog.html">Blog</a>
+				</div>
+				<div class="menu-item">
+					<a role="button" href="contact.html">Contact</a>
+				</div>
+			</div>
+			<div class="underline"></div>
+		</div>
+		<div class="content">
+			<div class="archive">
+				<div class="archive-entry">
+					<a class="archive-entry-link" href=blog/miami.html>Field Notes: Miami</a>
+					<span class="archive-entry-preview">Observations from a month spent in Miami.</span>
+					<span class="archive-entry-date">Jan. 11, 2022</span>
+				</div>
+				<div class="archive-entry">
+					<a class="archive-entry-link" href=blog/nostalgia.html>Aspire After Nostalgia</a>
+					<span class="archive-entry-preview">Lessons from Pokémon Blue.</span>
+					<span class="archive-entry-date">May 12, 2019</span>
+				</div>
+				<div class="archive-entry">
+					<a class="archive-entry-link" href=blog/amazon.html>Will Amazon Ads Compromise Search?</a>
+					<span class="archive-entry-preview">While Amazon makes billions on ads, my search results get worse.</span>
+					<span class="archive-entry-date">May 12, 2019</span>
+				</div>
+				<div class="archive-entry">
+					<a class="archive-entry-link" href=blog/duckduckgo.html>Where Does DuckDuckGo Fall Short?</a>
+					<span class="archive-entry-preview">Google is better at handling culture-specific nuance.</span>
+					<span class="archive-entry-date">Apr. 8, 2019</span>
+				</div>
+				<div class="archive-entry">
+					<a class="archive-entry-link" href=blog/finance.html>Is Finance No Longer in Charge?</a>
+					<span class="archive-entry-preview">Tomorrow's banks will be run by engineers.</span>
+					<span class="archive-entry-date">Feb. 27, 2019</span>
+				</div>
+				<div class="archive-entry">
+					<a class="archive-entry-link" href=blog/moats.html>Binary Moats</a>
+					<span class="archive-entry-preview">On defending your business with code and contracts.</span>
+					<span class="archive-entry-date">Aug. 19, 2018</span>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="underline"></div>
+			<div class="footer-content">
+				<span>
+					&#169; Mike Koscinski 2018-2023
+				</span>
+			</div>
+		</footer>
+	</body>
 </html>

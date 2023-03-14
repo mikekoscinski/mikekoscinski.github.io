@@ -1,97 +1,182 @@
-/* File System: This CSS sheet is in the same directory as the parent pages. */
-/* However, it is in the directory *** above *** the blog post files. */
-/* So, reference this sheet as ../personal-site.css in the pages containing actual blog content. */
+:root {
+  color: black;
+	font-family: 'Spectral';
+	font-weight: 300;
+	background-color: #fff1e5;
+  letter-spacing: -.02em;
+}
 
-/* Formatting for the entire document. */
+h1 {
+	font-size: 26px;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 900;
+  letter-spacing: -.01em;
+  margin: 0;
+}
 
-html{
-	max-width: 70ch;
+h2 {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+p {
+  margin: 0px 0px 20px;
+}
+
+p:last-of-type {
+  margin: 0px;
+}
+
+.content {
+  padding: 20px 16px 0px;
+  max-width: 435px;
+  margin-bottom: 60px;
+}
+
+body {
 	margin-left: auto;
 	margin-right: auto;
-	padding: 15px;
-	font-family: arial, serif;
+	font-size: 16px;
+	font-weight: 400;
+  margin: 0px;
+  padding: 0px;
 }
 
-/* Master formatting for hyperlinks. */
-
-a:link{
-	color:black;
+.writing__2022 {
+  display: flex;
+  gap: 0px 60px;
 }
 
-a:visited{
-	color: black;
+a.essay {
+  width: 100%;
 }
 
-a:hover{
-	color: grey;
+.essay-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
 }
 
-a:active{
-	color: grey;
+.blog-search {
+  margin: 20px 0px;
 }
 
-/* Master formatting for header navigation bar. */
-
-header{
-	margin-top: 15px;
-	font-family: helvetica neue;
-	font-weight: bold;
-	font-size: 100%;
-	margin-bottom: 30px;
-
+.navbar a {
+  text-decoration: none;
 }
 
-/* Links in the header will not be underlined */
-
-header a{
-	text-decoration: none;
+.nav-sections {
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+  gap: 20px;
+  height: 40px;
+  padding: 0px 16px 0px;
 }
 
-/* Formatting for my name in the header */
-
-header p{
-	display: inline-block;
-	float: left;
-	margin: 0;
-	padding: 0;
+.underline {
+  border: solid grey .5px;
 }
 
-/* Formatting for my nav list in the header */
-
-header nav	ul{
-	list-style-type: none;
-	float: right;
-	margin: 0;
-	padding: 0;
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 16px 4px;
 }
 
-header nav li{
-	display: inline-block;
-	margin-left: 15px;
+.topbar-name {
+  font-weight: 700;
 }
 
-/* Within the header, this middle justifies the left-aligned name and the right-aligned nav bar. */
-
-header::after{
-	content:"";
-	display: table;
-	clear: both
+.subscribe {
+  display: flex;
 }
 
-/* Master formatting for content within the body of blogpost entries. */
-
-.blogpost h1{
-	font-size: 150%;
-	font-weight: bolder;
+.menu-item {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  border-bottom: solid transparent 3px;
+  margin-bottom: 3px;
 }
 
-.blogpost p{
-	font-size: 100%;
+a {
+  color: black;
 }
 
-.blogpost img{
-	max-width: 100%;
-	max-height: 100%;
-	margin-top: 3%;
-	margin-bottom: 3%;
+.content a {
+  font-weight: 700;
+}
+
+a:hover {
+  color: #33302e;
+}
+
+a:visited {
+  color: black;
+}
+
+.menu-item.focused {
+  font-weight: 700;
+  border-bottom: solid black 3px;
+}
+
+.section-heading {
+  margin-bottom: 16px;
+}
+
+footer {
+  bottom: 0px;
+  height: 40px;
+  left: 0px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff1e5;
+}
+
+.footer-content {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  padding: 0px 16px;
+  width: 100%;
+}
+
+.archive {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.archive-entry {
+  display: flex;
+  flex-direction: column;
+}
+
+.archive-entry-link {
+  display: flex;
+  flex-grow: 1;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Frank Ruhl Libre', serif;
+  text-decoration: none;
+}
+
+.archive-entry-date {
+  font-style: italic;
+}
+
+.archive-entry-preview {
+  color: #33302e;
+}
+
+.blogpost img {
+  max-width: 100%;
+}
+
+a h1:hover {
+  color: #33302e;
 }
