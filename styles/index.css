@@ -61,6 +61,10 @@ a.essay {
   margin: 20px 0px;
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .nav-sections {
   align-items: center;
   display: flex;
@@ -97,9 +101,15 @@ a.essay {
   margin-bottom: 3px;
 }
 
-a {
-  text-decoration: none;
+.content a {
+  /* text-decoration: none; */
+  /* font-family: 'Frank Ruhl Libre', serif; */
   color: black;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #33302e;
 }
 
 a:visited {
@@ -129,4 +139,33 @@ footer {
   height: 100%;
   padding: 0px 16px;
   width: 100%;
+}
+
+.archive {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.archive-entry {
+  display: flex;
+  flex-direction: column;
+}
+
+.archive-entry-link {
+  display: flex;
+  flex-grow: 1;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Frank Ruhl Libre', serif;
+  text-decoration: none;
+}
+
+.archive-entry-date {
+  font-style: italic;
+}
+
+.archive-entry-preview {
+  color: #33302e;
 }
