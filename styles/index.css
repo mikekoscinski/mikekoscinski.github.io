@@ -34,6 +34,11 @@ p:last-of-type {
   margin-bottom: 60px;
 }
 
+.content-projects {
+  padding: 20px 16px 0px;
+  margin-bottom: 60px;
+}
+
 body {
 	margin-left: auto;
 	margin-right: auto;
@@ -150,8 +155,6 @@ footer {
 }
 
 .archive-entry-link {
-  display: flex;
-  flex-grow: 1;
   font-weight: 700;
   font-size: 18px;
   font-family: 'Frank Ruhl Libre', serif;
@@ -172,4 +175,83 @@ footer {
 
 a h1:hover {
   color: #33302e;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.project-entry {
+  background: #fff9f5;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.project-entry-title {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Frank Ruhl Libre', serif;
+  text-decoration: none;
+  margin-bottom: 2px;
+}
+
+.project-entry-date {
+  font-style: italic;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.project-entry-preview {
+  color: #33302e;
+  margin-bottom: 10px;
+}
+
+.project-entry-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 6px;
+  margin-bottom: 8px;
+}
+
+.project-entry-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 15px;
+  margin-top: auto;
+}
+
+.project-entry-actions a {
+  text-decoration: underline;
+}
+
+.project-entry-actions a:hover {
+  color: gray;
+}
+
+.project-entry-actions a:after {
+  content: "↗";
+}
+
+span.chiclet {
+  background-color: lightgray;
+  border-radius: 3px;
+  font-family: 'Courier Prime';
+  font-size: 12px;
+  padding: 2px 4px;
+}
+
+.commissioned {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 589px) {
+  .project-entry {
+    width: 100%;
+  }
 }
