@@ -1,21 +1,25 @@
 :root {
   color: black;
-	font-family: 'Spectral';
-	font-weight: 300;
-	background-color: #fff1e5;
-  letter-spacing: -.02em;
+  font-family: "Spectral";
+  font-weight: 300;
+  background-color: #fff1e5;
+  letter-spacing: -0.02em;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
 }
 
 h1 {
-	font-size: 22px;
-  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 22px;
+  font-family: "Frank Ruhl Libre", serif;
   font-weight: 900;
-  letter-spacing: -.01em;
+  letter-spacing: -0.01em;
   margin: 0;
 }
 
 h2 {
-  font-family: 'Frank Ruhl Libre', serif;
+  font-family: "Frank Ruhl Libre", serif;
   font-size: 20px;
   margin: 0;
 }
@@ -40,10 +44,10 @@ p:last-of-type {
 }
 
 body {
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 15px;
-	font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  font-weight: 400;
   margin: 0px;
   padding: 0px;
 }
@@ -77,7 +81,7 @@ a.essay {
 }
 
 .underline {
-  border: solid grey .5px;
+  border: solid grey 0.5px;
 }
 
 .topbar {
@@ -157,7 +161,7 @@ footer {
 .archive-entry-link {
   font-weight: 700;
   font-size: 18px;
-  font-family: 'Frank Ruhl Libre', serif;
+  font-family: "Frank Ruhl Libre", serif;
   text-decoration: none;
 }
 
@@ -195,7 +199,7 @@ a h1:hover {
 .project-entry-title {
   font-weight: 700;
   font-size: 18px;
-  font-family: 'Frank Ruhl Libre', serif;
+  font-family: "Frank Ruhl Libre", serif;
   text-decoration: none;
   margin-bottom: 2px;
 }
@@ -240,7 +244,7 @@ a h1:hover {
 span.chiclet {
   background-color: lightgray;
   border-radius: 3px;
-  font-family: 'Courier Prime';
+  font-family: "Courier Prime";
   font-size: 12px;
   padding: 2px 4px;
 }
